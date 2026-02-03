@@ -2,7 +2,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import Timeline from "./Timeline";
 import MusicPlayer from "./Musicplayer";
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   const [passcode, setPasscode] = useState("");
