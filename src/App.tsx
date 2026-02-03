@@ -2,6 +2,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import Timeline from "./Timeline";
 import MusicPlayer from "./Musicplayer";
+import { Analytics } from "@vercel/analytics/next"
 
 function App() {
   const [passcode, setPasscode] = useState("");
@@ -9,7 +10,20 @@ function App() {
   const [playMusic, setPlayMusic] = useState(false);
   const [error, setError] = useState("");
 
-  const SECRETS = ["wifee", "love", "forever", "2024","gojasi","baddie","mrs Seremu","seremu","wife","mine","my wife","my girl"];
+  const SECRETS = [
+    "wifee",
+    "love",
+    "forever",
+    "2024",
+    "gojasi",
+    "baddie",
+    "mrs Seremu",
+    "seremu",
+    "wife",
+    "mine",
+    "my wife",
+    "my girl",
+  ];
 
   const handleUnlock = () => {
     // Normalize input (trim whitespace and make lowercase)
@@ -35,9 +49,7 @@ function App() {
 
   return (
     <>
-      {/* The MusicPlayer sits at the top level. 
-         It is always rendered but only plays when `playMusic` is true.
-      */}
+      <Analytics />
       <MusicPlayer isPlaying={playMusic} />
 
       {isUnlocked ? (
@@ -52,7 +64,9 @@ function App() {
             className="bg-white p-8 rounded-2xl shadow-xl max-w-sm w-full text-center border-2 border-pink-100"
           >
             <div className="text-4xl mb-4">💌</div>
-            <h1 className="text-2xl font-bold mb-2">For My Persom - Dalubuhle Seremu</h1>
+            <h1 className="text-2xl font-bold mb-2">
+              For My Persom - Dalubuhle Seremu
+            </h1>
             <p className="text-gray-600 mb-6 text-sm">
               Enter the secret code to open.
             </p>
