@@ -52,7 +52,7 @@ export const memories: Memory[] = [
     date: "03 July 2024",
     title: "disappeared 😢",
     description:
-      "Last message before she dissapeared for a the whole year. I was sad for a bit, but managed to move on, She was a stranger after all.",
+      "Last message before she disappeared for the whole year. I was sad for a bit, but managed to move on, She was a stranger after all.",
     image: "images/6.jpeg",
   },
   {
@@ -74,9 +74,9 @@ export const memories: Memory[] = [
   {
     id: 9,
     date: "19 January 2025",
-    title: "Her favourite picture of me ❤️",
+    title: "Her favorite picture of me ❤️",
     description:
-      "Created her favourite picture of me. She said I looked handsome and she loved it. I am not allowed to removed from my profile picture.",
+      "Created her favorite picture of me. She said I looked handsome and she loved it. I am not allowed to remove it from my profile picture.",
     image: "images/9.jpg",
   },
   {
@@ -92,7 +92,7 @@ export const memories: Memory[] = [
     date: "10 February 2025",
     title: "The beginning of forever ❤️",
     description:
-      "I think this was the moment I realized I am in a relationship with this stranger. We started planning our wedding and future together from this point.",
+      "I think this was the moment I realized I was in a relationship with this stranger. We started planning our wedding and future together from this point.",
     image: "images/11.jpeg",
   },
   {
@@ -116,7 +116,7 @@ export const memories: Memory[] = [
     date: "20 February 2025",
     title: "New Name ❤️",
     description:
-      "She made change her contact name. This person is no longer a stranger to me.",
+      "She made me change her contact name. This person is no longer a stranger to me.",
     image: "images/14.jpeg",
   },
   {
@@ -154,7 +154,7 @@ export const memories: Memory[] = [
     date: "12 April 2025",
     title: "Gone Gent ❤️",
     description:
-      "Look how this person made me look. Am blushing like crazy. I suspect she used love portion on me becasue there is no other explanation.",
+      "Look how this person made me look. I'm blushing like crazy. I suspect she used love potion on me because there is no other explanation.",
     image: "images/19.png",
   },
   {
@@ -183,7 +183,7 @@ export const memories: Memory[] = [
     date: "09 May 2025",
     title: "Attempted seduction",
     description:
-      "I pretty sure she was trying to seduce me here. I can't prove it tho.",
+      "I'm pretty sure she was trying to seduce me here. I can't prove it though.",
     image: "images/23.gif",
   },
   {
@@ -198,7 +198,7 @@ export const memories: Memory[] = [
     date: "My turn",
     title: "Roles reversed",
     description:
-      "The view once went both ways. I don't think she liked my though",
+      "The view once went both ways. I don't think she liked mine though",
     image: "images/25.jpeg",
   },
   {
@@ -225,9 +225,9 @@ export const memories: Memory[] = [
   {
     id: 29,
     date: "23 July 2025",
-    title: "Vodoo rituals",
+    title: "Voodoo rituals",
     description:
-      "This is her perfoming her vodoo ritual to keep me hers forever. I am hers forever and no one can change that.",
+      "This is her performing her voodoo ritual to keep me hers forever. I am hers forever and no one can change that.",
     image: "images/29.gif",
   },
   {
