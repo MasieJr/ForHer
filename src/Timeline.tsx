@@ -14,7 +14,7 @@ const memories: Memory[] = [
     date: "Stranger Danger",
     title: "The Beginning",
     description:
-      "A stranger came into my life and this was here profile pic. I didnt think musch of her.",
+      "A stranger came into my life and this was her profile pic. I didnt think much of her.",
     image: "images/1.jpg",
   },
   {
@@ -396,8 +396,8 @@ export default function Timeline() {
                     <img
                       src={item.image}
                       alt={item.title}
-                      // loading="lazy"
-                      // decoding="async"
+                      loading="lazy"
+                      decoding="async"
                       className="w-full h-auto block transform hover:scale-105 transition-transform duration-500"
                     />
                   </div>
@@ -431,7 +431,7 @@ export default function Timeline() {
           whileInView={{ opacity: 1 }}
           className="text-center mt-20"
         >
-          <p className="text-2xl font-serif text-red-500">To be continued...</p>
+          <p className="text-2xl font-serif text-red-500">More Coming Soon...</p>
         </motion.div>
       </div>
     </div>

@@ -9,7 +9,7 @@ function App() {
   const [playMusic, setPlayMusic] = useState(false);
   const [error, setError] = useState("");
 
-  const SECRETS = ["wifee", "love", "forever", "2024"];
+  const SECRETS = ["wifee", "love", "forever", "2024","gojasi","baddie","mrs Seremu","seremu","wife","mine","my wife","my girl"];
 
   const handleUnlock = () => {
     // Normalize input (trim whitespace and make lowercase)
@@ -23,7 +23,7 @@ function App() {
       // 3. Clear any errors
       setError("");
     } else {
-      setError("Wrong password! Hint: What is my nickname for you? ❤️");
+      setError("Wrong password! Hint: What are you? ❤️");
     }
   };
 
@@ -52,9 +52,9 @@ function App() {
             className="bg-white p-8 rounded-2xl shadow-xl max-w-sm w-full text-center border-2 border-pink-100"
           >
             <div className="text-4xl mb-4">💌</div>
-            <h1 className="text-2xl font-bold mb-2">For My Valentine</h1>
+            <h1 className="text-2xl font-bold mb-2">For My Persom - Dalubuhle Seremu</h1>
             <p className="text-gray-600 mb-6 text-sm">
-              Enter the secret code to open your gift.
+              Enter the secret code to open.
             </p>
 
             <input
@@ -62,7 +62,7 @@ function App() {
               value={passcode}
               onChange={(e) => setPasscode(e.target.value)}
               onKeyDown={handleKeyPress}
-              placeholder="e.g. wifee"
+              placeholder="Im your man"
               className="w-full px-4 py-2 rounded-lg border border-pink-200 focus:outline-none focus:ring-2 focus:ring-pink-400 mb-4 text-center text-gray-800"
             />
 
@@ -70,7 +70,7 @@ function App() {
               onClick={handleUnlock}
               className="w-full bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded-lg transition-colors shadow-md"
             >
-              Unlock Heart
+              Unlock
             </button>
 
             {/* Error Message with a small animation key */}
