@@ -65,7 +65,7 @@ function App() {
           >
             <div className="text-4xl mb-4">💌</div>
             <h1 className="text-2xl font-bold mb-2">
-              For My Persom - Dalubuhle Seremu
+              For My Person - Dalubuhle Seremu
             </h1>
             <p className="text-gray-600 mb-6 text-sm">
               Enter the secret code to open.
